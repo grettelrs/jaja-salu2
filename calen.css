@@ -1,0 +1,54 @@
+body {
+  margin: auto;
+  background: #eaeaea;  
+   font-family:let;
+}
+
+@font-face {
+  font-family: let;
+  src: url(code.otf);
+}
+    #calendar {
+      margin-left: 30%;
+        float: center;
+        width: 500px;
+        height: 400px;
+      font-family:let;
+      font-size:20px;
+    }
+    #calendar caption {
+      text-align:center;
+      padding:5px 10px;
+      background-color:#F6AA93;
+      color:#ffffff;
+      font-weight:bold;
+      font-size:25px;
+    }
+    #calendar caption div:nth-child(1) {float:center;}
+    #calendar caption div:nth-child(2) {float:center;}
+    #calendar caption div:nth-child(2) a {cursor:pointer;}
+    #calendar th {
+      background-color:#F6AA93;
+      color:#fff;
+      width:40px;
+    }
+    #calendar td {
+      text-align:center;
+      padding:2px 5px;
+      background-color:#FFFFFF;
+    }
+    #calendar .hoy {
+      background-color:rgba(141,199,175,0.7);
+    }
+    button{
+      border-radius: 10%;
+      background-color:#81BDA4;
+      text-align: center;
+      font-family: let;
+      font-size: 17px;
+      margin-left: 42%;
+    }
+    #main{
+      float: center;
+      align-content: center;
+    }

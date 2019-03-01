@@ -1,0 +1,116 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Cine diseño</title>
+	<link rel="stylesheet" type="text/css" href="cine.css">
+</head>
+<body>
+	  <h1 class="form">Cine diseño</h1>
+   <div class="info"><p>Cine de diseño</p></div>
+  
+  <div id="cuerpo">
+	    <h1>Por favor llena los espacios con la información.</h1>
+	    
+    <div class="contentform">
+    	<div id="sendmessage">Gracias.</div>
+
+
+    	<div class="leftcontact">
+			      <div class="form-group">
+			        <p>Nombre de la película<span>*</span></p>
+			        <span class="icon-case"><i class="fa fa-male"></i></span>
+				        <input type="text" name="nom" id="Nombre" />
+                <div class="validation"></div>
+       </div> 
+
+            <div class="form-group">
+            <p>Duración de la película <span>*</span></p>
+            <span class="icon-case"><i class="fa fa-user"></i></span>
+				<input type="text" name="duracion" id="duracion"/>
+                <div class="validation"></div>
+			</div>
+
+			<div class="form-group">
+			<p>Género<span>*</span></p>	
+			<span class="icon-case"><i class="fa fa-envelope-o"></i></span>
+                <input type="text" name="genero" id="genero" />
+                <div class="validation"></div>
+			</div>	
+
+			<div class="form-group">
+			<p><p>Idioma del audio <span>*</span></p>
+			<span class="icon-case"><i class="fa fa-home"></i></span>
+				<input type="text" name="idiomaaudio" id="idiomaaudio" />
+                <div class="validation"></div>
+			</div>
+
+			<div class="form-group">
+			<p>Idioma de subtítulos <span>*</span></p>
+			<span class="icon-case"><i class="fa fa-location-arrow"></i></span>
+				<input type="text" name="idiomasub" id="idiomasub" />
+                <div class="validation"></div>
+			</div>
+
+			<div class="form-group">
+			<p>Sinopsis<span>*</span></p>
+			<span class="icon-case"><i class="fa fa-map-marker"></i></span>
+				<input type="text" name="sinopsis" id="sinopsis"/>
+                <div class="validation"></div>
+			</div>	
+			<div class="form-group">
+			<p>Clasificación<span>*</span></p>
+			<span class="icon-case"><i class="fa fa-map-marker"></i></span>
+				<input type="text" name="clasi" id="clasi" />
+                <div class="validation"></div>
+			</div>	
+			<div class="form-group">
+			<p>Precio<span>*</span></p>
+			<span class="icon-case"><i class="fa fa-map-marker"></i></span>
+				<input type="text" name="precio" id="precio" />
+                <div class="validation"></div>
+			</div>	
+			<div class="form-group">
+			<p>Hora de inicio<span>*</span></p>
+			<span class="icon-case"><i class="fa fa-map-marker"></i></span>
+				<input type="number" name="hora" id="hora" />
+                <div class="validation"></div>
+			</div>	
+			<div class="form-group">
+			<p>Fecha<span>*</span></p>
+			<span class="icon-case"><i class="fa fa-map-marker"></i></span>
+				<input type="date" name="fecha" id="fecha"/>
+                <div class="validation"></div>
+			</div>
+			<div class="form-group">
+			<p>Minuto de inicio<span>*</span></p>
+			<span class="icon-case"><i class="fa fa-map-marker"></i></span>
+				<input type="number" name="iniciom" id="iniciom" />
+                <div class="validation"></div>
+			</div>
+			<div class="form-group">
+			<p>Caratula de la película<span>*</span></p>
+			<span class="icon-case"><i class="fa fa-map-marker"></i></span>
+				<input type="file" id="img" required data-msg="Inserte una imagen."/>
+                <div class="validation"></div>
+			</div>
+			<div class="form-group">
+			<p>Estado de la película<span>*</span></p>
+			<span class="icon-case"><i class="fa fa-map-marker"></i></span>
+				<input type="text" name="estado" id="estado" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Code postal' doit être renseigné."/>
+                <div class="validation"></div>
+			</div>
+
+	</div>
+
+ 	<div class="rightcontact">	
+			
+	</div> 
+	</div>
+<button  class="bouton-contact" onclick="botonguardarclick()">Enviar</button>
+
+</div>	
+
+	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="clasecinefrontend.js"></script>
+</body>
+</html>
